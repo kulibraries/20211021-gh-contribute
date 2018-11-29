@@ -5,6 +5,7 @@
 This repository organizes a project to plan a party. It contains:
 - Files marked up with [GitHub-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
 - Issues describing tasks that contributors can complete
+- A handout containing basic commands and exercises
 
 ### Learning Outcomes
 Someone new to GitHub can use this repository to practice the following skills:
