@@ -14,7 +14,7 @@ Personnel:
 
 ### Exercise: Contributing to an open project using GitHub
 
-1. Navigate to the repository: [https://github.com/kulibraries/20181130-gh-contribute](https://github.com/kulibraries/20181130-gh-contribute)
+1. Navigate to the repository: [https://github.com/kulibraries/20211021-gh-contribute](https://github.com/kulibraries/20211021-gh-contribute)
 2. Claim an Issue by replying to it (this is optional when working on open projects outside of the workshop)
 3. Click on the Fork button at the top right of the screen to make your own copy. You may be asked to choose where to fork (copy) the repository. Fork it into your own GitHub account. 
 4. In your fork of the project, create a new branch. Pull down the Branch indicator and start typing to create a new branch. Name the branch for the change you intend to make, e.g.: `revise-cocktail-recipes` (avoid spaces in your branch names!).
@@ -88,15 +88,15 @@ Note that Markdown is sensitive to space characters and line breaks. If your Mar
 
 ### Resources
 
-**Library Carpentry Intro to Git lesson:** [https://librarycarpentry.org/lc-git/](https://librarycarpentry.org/lc-git/)
-
 **GitHub Guides Hello World exercise:** [https://guides.github.com/activities/hello-world/](https://guides.github.com/activities/hello-world/)
 
 **Mozilla Science Lab GitHub for Collaboration on Open Projects lesson:** [http://mozillascience.github.io/working-open-workshop/github_for_collaboration/](http://mozillascience.github.io/working-open-workshop/github_for_collaboration/)
 
+**Step-by-step description of GitHub Flow for open projects** (specifically for Software Carpentry): [https://github.com/dmgt/swc_github_flow/blob/master/for_novice_contributors.md](https://github.com/dmgt/swc_github_flow/blob/master/for_novice_contributors.md)
+
 **Software Carpentry Version Control with Git lesson** (offers more focus on command-line Git): [http://swcarpentry.github.io/git-novice/](http://swcarpentry.github.io/git-novice/)
 
-**Step-by-step description of GitHub Flow for open projects** (specifically for Software Carpentry): [https://github.com/dmgt/swc_github_flow/blob/master/for_novice_contributors.md](https://github.com/dmgt/swc_github_flow/blob/master/for_novice_contributors.md)
+**Library Carpentry Intro to Git lesson:** [https://librarycarpentry.org/lc-git/](https://librarycarpentry.org/lc-git/)
 
 ---
 
@@ -105,10 +105,11 @@ Author: Jamene Brooks-Kieffer
 
 Affiliation: University of Kansas Libraries
 
-Link: [https://github.com/kulibraries/20181130-gh-contribute/blob/master/git-handout.md](https://github.com/kulibraries/20181130-gh-contribute/blob/master/git-handout.md)
+Link: [https://github.com/kulibraries/20211021-gh-contribute/blob/master/git-handout.md](https://github.com/kulibraries/20211021-gh-contribute/blob/master/git-handout.md)
 
 License: CC-BY [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/)
 
 Modified from James Baker's original Library Carpentry Git handout:
 [https://github.com/LibraryCarpentry/week-three-library-carpentry-DEPRECATED/blob/master/handout.docx](https://github.com/LibraryCarpentry/week-three-library-carpentry-DEPRECATED/blob/master/handout.docx)
 
+Also adapted from the Mozilla Science Lab GitHub for Collaboration on Open Projects lesson: [http://mozillascience.github.io/working-open-workshop/github_for_collaboration/](http://mozillascience.github.io/working-open-workshop/github_for_collaboration/)
