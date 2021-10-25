@@ -1,175 +1,18 @@
 # Introduction to Git and GitHub Workshop Handout
 
-## ArchivesSpace Kansas City Regional Forum
-## November 30, 2018
+## Topics in Environmental Studies: Team Science
+## University of Kansas
+## October 28, 2021
 
 ---
 
 Personnel:
 - Jamene Brooks-Kieffer, KU Libraries
-- Tami Albin, KU Libraries
-- Scott Hanrath, KU Libraries
-- Patrice-Andre Prud'homme, OSU Library
+- Samantha Thomas, Kansas Biological Survey
 
 ---
 
-Schedule:
-- 9:10-10:00: Getting started with Git and Markdown
-- 10:05-11:00: Collaborating using GitHub
-- 11:05-12:00: Contributing to an open project using GitHub
-- 12:05-12:30: Tour of the ArchivesSpace GitHub repository (with Scott Hanrath)
-
----
-
-### Basics - navigating the command-line interface (also called the shell)
-
-**`pwd`** print working directory
-
-**`ls`** list directory
-
-- `ls -l`: list a lot of file information
-- `ls -lh`: list a lot of human-readable file information
-
-**`cd`** change directory
-
----
-
-### Basics - interacting with files on the command line
-
-**`mkdir`** make directory
-
-**`cat`** send file or files to output (in most cases, this shows the content of a file without having to open it)
-
-**`head`** output first parts of a file or files (default is usually 10 lines)
-
-**`tail`** output last parts of a file or files (default is usually 10 lines)
-
-**`mv`** rename or move a file or files. Syntax for renaming a file: `mv FILENAME NEWFILENAME`  **USE WITH CAUTION!!!**
-
-**`cp`** copy a file or files. Syntax: `cp FILENAME NEWFILENAME`
-
-**`>`** redirect output. Syntax with `cat`: `cat FILENAME1 FILENAME2 > NEWFILENAME`
-
-**`rm`** remove a file or files. **USE WITH CAUTION!!!**
-
----
-
-### Basic Git commands 
-
-**`git init`**: creates a git repository
-
-**`git status`** : view the status of your files in the working directory and staging area
-
-**`git add`**: tells git to start tracking a file, or a series of files. 
-
-**`git commit`**: commits (saves) the staged snapshot to the project history. 
-
-**`git log`**: shows all the commits in the project history
-
-**`git diff`**: shows changes made to files
-
-**`git remote add origin`**: add a remote repository where changes will be stored, usually for collaboration
-
-**`git push`**: sends local changes to a remote repository
-
-**`git pull`**: brings changes made in a remote repository to the local repository 
-
----
-
-### Exercises
-
-#### Exercise 1: Add to your Markdown cheat sheet
-
-Edit your `index.md` file using a plain text editor. If you don't like working with nano on the command line you can open the file with Notepad (Windows) or TextEdit (Mac). If you use TextEdit you may need to change the document to plain text (Format > Make Plain Text).
-
-Add the lines below to the file, leaving an empty line between the existing content and the new stuff. Try to type as much of this as you can, but if time is short you can copy/paste from the shared notes. Once you have added content to your file, save and close it, then add and commit it to your git repository.
-
-`## Level 2 Heading`
-
-`### Level 3 Heading`
-
-`A paragraph is denoted by white space before and after.`
-
-	A bulleted list:
-	- level 1
-	- level 1
-			- level 2
-			- level 2
-
-	A numbered list:
-	1. One
-	2. Two
-	3. Three
-
-`*italic text*`
-
-`**bold text**`
-
-`~~strikethrough text~~`
-  
-	---
-	Make a horizontal rule
-	---
-
-`Embed a link with [square brackets](https://daringfireball.net/projects/markdown/syntax)`
-
----
-
-#### Exercise 2: Collaborate via GitHub
-1. Complete this exercise with one partner:
-   - Pair up
-   - Share GitHub names
-   - Decide which role you will play first, Owner or Collaborator
-   - When you finish (after step 6), switch roles and complete the exercise again
-2. Owner, invite the collaborator to contribute to your hello-world repository:
-   - Click  Settings on the far right tab in your repository.
-   - Click Collaborators, the second choice on the left menu.
-   - Search for your collaborator using their GitHub name.
-   - When you've found them, click Add Collaborator next to the search box.
-3. Collaborator, accept the invitation:
-   - Go to GitHub Notifications at [https://github.com/notifications](https://github.com/notifications) and accept the invitation.
-   - Or open the email from GitHub in the address you used to create your account.
-   - You should now have access to edit the repository.
-4. Collaborator, find the Owner's `README.md` file. Edit the file and commit the changes.
-5. Owner, refresh your browser and see the changes made by the Collaborator.
-6. Both partners, click on the Commits link below the repository description. Explore the repository's commit history now that two people have made changes.
-   
-#### Exercise 2a: Optional steps
-
-*The Collaborator has the option to create a local copy of the Owner's repository and edit the files there, then push changes to GitHub. This isn't necessary for today's exercise but it's handy to know how to do. Follow the instructions below or save them for your next Git/GitHub collaboration.*
-
-1. Collaborator, go to the Owner's repository in GitHub and click the green Clone or download button on the far right.
-2. Collaborator, copy the URL you find there.
-3. Collaborator, switch to your command line interface and go to your Desktop:
-   - **`cd ~/Desktop`**
-4. Collaborator, download a copy of the Owner's repository to a folder on the Desktop of your computer:
-   - **`git clone https://Owners-GitHub-Repo ~/Desktop/owner-hello-world`** 
-   - Substitute the URL that you copied in step 2 for the placeholder text in the command
-   - Substitute the Owner's name for "owner" in the folder name, e.g.: **`~/Desktop/jill-hello-world`**
-5. Collaborator, you can change things in your clone of the Owner's repository:
-   - **`cd ~/Desktop/owner-hello-world`**
-   - **`nano README.md`** (or use your favorite text editor)
-   - Make some changes to the file
-   - Save and exit
-   - **`git add README.md`**
-   - **`git commit -m "Write a good commit message"`**
-6. Collaborator, push your changes to the Owner's repository on GitHub:
-   - **`git push origin master`**
-   - We don't need to create a remote because Git does this automatically when we clone a repository
-7. Both partners can look at the Owner's hello-world repository (maybe refresh your browser) and see the Collaborator's changes.
-8. Owner, you need to get your local hello-world repository in sync with the remote now that your collaborator has made and pushed some changes.
-   - Switch to your command line interface
-   - Make sure that you are in your hello-world directory. Use **`pwd`** to see where you are and **`cd`** to move, if necessary.
-   - **`git pull origin master`**
-   - **`cat README.md`** (if you want to see that the changes are present)
-9. All three repositories should be in sync. Switch roles and repeat.
-
-
-*For another exercise using this collaboration model of two local repositories and one shared remote repository, check out Software Carpentry's "Version Control with Git: Conflicts" lesson at [http://swcarpentry.github.io/git-novice/09-conflict/](http://swcarpentry.github.io/git-novice/09-conflict/). The directory and file names are different but the concepts are the same.*
-
----
-
-#### Exercise 3: Contributing to an open project using GitHub
+### Exercise: Contributing to an open project using GitHub
 
 1. Navigate to the repository: [https://github.com/kulibraries/20181130-gh-contribute](https://github.com/kulibraries/20181130-gh-contribute)
 2. Claim an Issue by replying to it (this is optional when working on open projects outside of the workshop)
@@ -193,6 +36,53 @@ Add the lines below to the file, leaving an empty line between the existing cont
      - GitHub will give you a set of issues to pick from. Choose the issue you worked on.
    - Click the green Create Pull Request button at the bottom
 8. GitHub will notify you if your pull request is accepted into the project.   
+
+---
+
+### A Markdown cheat sheet
+
+Use the code below to add Markdown-formatted content to any file with a \*.md file extension, or create a new Markdown-formatted file. Use a plain text editor any time you work in Markdown; a word processor like MS Word will try to interpret your code for you. Useful and extensible text editors include:
+
+- [Notepad++](http://notepad-plus-plus.org/) (Windows only)
+- [Atom](https://atom.io/) (all OS)
+- [Sublime Text](https://www.sublimetext.com/) (all OS)
+
+Markdown can be incorporated into R using the [`rmarkdown`](https://rmarkdown.rstudio.com/index.html) package. Markdown can also be written into a [Jupyter Notebook or JupyterLab](https://jupyter.org/index.html) cell. All of these options are great for documenting your code.
+
+Note that Markdown is sensitive to space characters and line breaks. If your Markdown isn't formatting as you expect, check your white space.
+
+`# Level 1 Heading`
+
+`## Level 2 Heading`
+
+`### Level 3 Heading`
+
+`A paragraph is denoted by white space before and after.`
+
+	A bulleted list:
+	- level 1
+	- level 1
+			- level 2
+			- level 2
+
+	A numbered list:
+	1. One
+	2. Two
+	3. Three
+
+`*italic text*`
+
+`**bold text**`
+
+	`code text`
+
+`~~strikethrough text~~`
+  
+	---
+	Make a horizontal rule
+	---
+
+`Embed a link with [square brackets](https://daringfireball.net/projects/markdown/syntax)`
 
 ---
 
