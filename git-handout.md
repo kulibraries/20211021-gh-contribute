@@ -1,8 +1,8 @@
-# Introduction to Git and GitHub Workshop Handout
+# Introduction to GitHub
 
 ## Topics in Environmental Studies: Team Science
-## University of Kansas
-## October 28, 2021
+### University of Kansas
+### October 28, 2021
 
 ---
 
@@ -83,6 +83,26 @@ Note that Markdown is sensitive to space characters and line breaks. If your Mar
 	---
 
 `Embed a link with [square brackets](https://daringfireball.net/projects/markdown/syntax)`
+
+---
+
+### Glossary of GitHub Jargon
+
+**Branch**: A sandbox area for experimenting in the project without affecting the main production files.
+
+**Commit**: Save your work
+
+**Commit message**: A note you write to yourself/collaborators when you save
+
+**Fork**: Make a copy of the repository; the new copy is still linked to the original
+
+**History**: What happened to the project in the past - preserved in the repository and Commit messages
+
+**Issue**: A task that needs doing in the GitHub repository, or a note left to the project owner
+
+**Pull request**: A way to ask the project owner to incorporate your change into the original repository
+
+**Repository** or **Repo**: The set of files that make up the project
 
 ---
 
