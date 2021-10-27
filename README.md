@@ -18,6 +18,6 @@ Someone new to GitHub can use this repository to practice the following skills:
 - Contribute back to projects using a [fork/branch/pull request workflow](https://github.com/dmgt/swc_github_flow/blob/master/for_novice_contributors.md), aka GitHub Flow
 
 ### Use for Learning
-Interact with the repository as we practiced in class and explore concepts we didn't get to cover. Ask questions by adding a new Issue.
+Interact with the repository as we practiced in class and explore concepts we didn't get to cover. Complete the exercise in `git-handout.md`. Ask questions by adding a new Issue.
 
 Above all, don't worry - **you can't break it!**
