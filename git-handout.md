@@ -25,7 +25,7 @@ Personnel:
    - Confirm that you are using the branch that contains your edits. If the Branch indicator says `master` pull it down and change it.
    - Click New Pull Request right beside the branch indicator.
    - Compare the two repositories:
-     - Base fork: the original project you forked (in this exercise, `kulibraries/20181130-gh-contribute`)
+     - Base fork: the original project you forked (in this exercise, `kulibraries/20211021-gh-contribute`)
      - Base: the branch of the base fork (in this exercise,  `master`)
      - Head fork: YOUR fork (copy) of the project
      - Compare: name of branch (in this exercise, should be the name of your new branch, e.g.: `revise-cocktail-recipes`)
