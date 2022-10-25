@@ -19,6 +19,24 @@ Yield: 1 drink
 
 Source: [Imbibe Magazine](http://imbibemagazine.com/The-Boulevardier-Cocktail-Recipe/)
 
+**Maple Old Fashioned**
+- 2 oz bourbon
+- 1 oz maple syrup
+- 2 dashes bitters
+- 1 piece orange peel
+
+Tools: mixing glass, bar spoon
+
+Glass: tumbler
+
+Garnish: cherry
+
+Method: Combine bourbon, syrup, and bitters in a mixing glass and stir. Add 1 large ice cube to tumbler. Pour in the cocktail and stir. Twist orange peel over the glass and drop into the cocktail. Add the cherry.
+
+Yield: 1 drink
+
+Source: [Food Network](https://www.foodnetwork.com/recipes/geoffrey-zakarian/maple-old-fashioned-11686891)
+
 ***
 
 ## Non-Alcoholic Drinks
