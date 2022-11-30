@@ -70,6 +70,6 @@ remove from heat. Let to cool to room temperature, about 15 minutes.
 -Fill 6 highball glasses with ice; pour strawberry mixture evenly into glasses. Slice a small slit in each of the whole strawberries; garnish each glass rim with
 1 strawberry.
 
-Yield: 6 drinks
+Yield: 6 drinks and lots of joy
 
 Source: [Southern Living](https://www.southernliving.com/recipes/strawberry-mint-tea)
