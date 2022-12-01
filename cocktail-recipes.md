@@ -54,3 +54,22 @@ Method:
 Yield: 2 drinks
 
 Source: [Martha Stewart](https://www.marthastewart.com/343293/cranberry-grapefruit-sparkler)
+
+**Strawberry Mint Tea**
+-2 cups fresh strawberries, hulled and roughly chopped
+-1 cup granulated sugar
+-8 peppermint sprigs
+-6 cups chilled sparkling water
+-8 whole fresh strawberries with tops
+
+Method: 
+-Place strawberries and sugar in a small saucepan; muddle using a wooden spoon. Cook mixture over low, stirring occasionally, until sugar melts, about 5 minutes.
+-Place each peppermint sprig in the palm of your hand. Give it a good slap (this brings out the volatile oils). Stir peppermint sprigs into strawberry mixture; 
+remove from heat. Let to cool to room temperature, about 15 minutes.
+-Remove and discard peppermint sprigs from strawberry mixture. Pour mixture through a fine mesh strainer into a half-gallon pitcher. Stir in sparkling water.
+-Fill 6 highball glasses with ice; pour strawberry mixture evenly into glasses. Slice a small slit in each of the whole strawberries; garnish each glass rim with
+1 strawberry.
+
+Yield: 6 drinks and lots of joy
+
+Source: [Southern Living](https://www.southernliving.com/recipes/strawberry-mint-tea)
